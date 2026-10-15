@@ -123,7 +123,9 @@ Run the application:
 python -m streamlit run app.py
 ```
 
-Ensure that `model.weights.h5` is in the same directory as `app.py`.
+## Live Demo
+
+Try the application here: https://the-model-that-doesnt-know-jbrxkzsh98gcbttsquuahz.streamlit.app/
 
 ## 13. Conclusion
 
