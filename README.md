@@ -90,6 +90,9 @@ These results indicate that the model can reject many unfamiliar-category images
 - Real-world photographs may differ in background, lighting, color, scale and orientation.
 - The confidence threshold may require recalibration for different datasets.
 - The system does not guarantee detection of every out-of-distribution image.
+-  Dataset Generalization
+
+The model is trained on the Fashion-MNIST dataset and is primarily designed for images similar to its training data. Although the application accepts external clothing images, including real-world photographs, its predictions may be less reliable due to differences in image quality, background, color, lighting, and orientation. The UNKNOWN decision is based on a confidence threshold and does not guarantee that an image belongs to an unfamiliar class.
 
 ## 10. Future Improvements
 
